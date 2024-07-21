@@ -165,10 +165,10 @@
 }
 
 .photo-card {
-      width: 100%; /* Sesuaikan dengan lebar dari kontainer induk */
-      height: 450px; /* Sesuaikan dengan tinggi dari kontainer induk */
-      position: relative; /* Untuk positioning relatif */
-      overflow: hidden; /* Agar gambar yang keluar dari area tidak terlihat */
+      width: 100%;
+      height: 450px;
+      position: relative;
+      overflow: hidden;
       border-radius: 20px;
       i{
             font-size: 30px;
@@ -179,10 +179,10 @@
 .photo-card img {
       width: 100%;
       height: 100%;
-      object-fit: cover; /* Membuat gambar menutupi seluruh kontainer tanpa mengubah rasio aspek */
-      position: absolute; /* Agar gambar mengikuti posisi dari .photo-card */
-      top: 0; /* Posisi dari atas */
-      left: 0; /* Posisi dari kiri */
+      object-fit: cover;
+      position: absolute; 
+      top: 0; 
+      left: 0; 
 }
 .btn-explore{
       background-color: #a18cd1;
