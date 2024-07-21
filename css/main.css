@@ -1,0 +1,347 @@
+*{
+      font-family: "Poppins", sans-serif;
+}
+
+.card{
+      border: none!important;
+      border-radius: 10px;
+}
+
+.navbar-top{
+      width: 100%;
+      height: 30px;
+      background-color: #a18cd1;
+      font-size: 12px;
+      border-radius: 0!important;
+}
+.login-regis-wrapp{
+      font-size: 14px;
+}
+
+.regis-btn{
+      background-color: #a18cd1;
+}
+
+.slogan{
+      font-size: 66px;
+      font-weight: 700;
+      color: #131313;
+}
+
+.hero{
+      height: 549.88px;
+}
+
+.hero-photo img{
+      margin-top: 50px;
+      width: 750px;
+}
+
+.bg-img{
+      width: 400px;
+      height: 400px;
+      background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      filter: blur(15px);
+      z-index: -99;
+}
+
+.navbar-brand{
+      color: #a18cd1;
+}
+
+.btn-trial{
+      background-color: #a18cd1;
+      font-weight: 500;
+}
+
+.btn-demo{
+      border: 1px solid #a18cd1;
+      font-weight: 700;
+      color: #121212;
+}
+
+.second{
+      background-color: #ececea;
+      padding-top: 100px;
+      padding-bottom: 100px;
+}
+
+@keyframes slide{
+      from{
+            transform: translateX(0);
+      }
+      to{
+            transform: translateX(-100%);
+      }
+}
+@keyframes slideRight{
+      from{
+            transform: translateX(-100%);
+      }
+      to{
+            transform: translateX(0);
+      }
+}
+
+.logos{
+      overflow: hidden;
+      white-space: nowrap;
+      position: relative;
+}
+
+.comments{
+      display: flex;
+      overflow: hidden;
+      position: relative;
+}
+
+.apps{
+      display: flex;
+      overflow: hidden;
+      position: relative;
+}
+
+.logos:before, .logos:after{
+      position: absolute;
+      top: 0;
+      height: 100%;
+      width: 100px;
+      z-index: 2;
+      content: "";
+}
+
+.logos:before{
+      left: 0;      
+      background: linear-gradient(to left, rgba(255, 255, 255, 0), #ececea);
+}
+
+.logos:after{
+      right: 0;
+      background: linear-gradient(to right, rgba(255, 255, 255, 0), #ececea);
+}
+
+.logos:hover .logos-slide{
+      animation-play-state: paused;
+}
+
+.logos-slide{
+      align-items: center;
+      align-content: center;
+}
+
+.logos-slide, .comments-slide, .apps-slide{
+      display: inline-block;
+      animation: 35s slide infinite linear;
+}
+
+.apps-slide-second{
+      display: inline-block;
+      animation: 35s slideRight infinite linear;
+}
+
+.card-comment, .card-app{
+      margin: 0 10px;
+}
+
+.logos-slide img{
+      filter: grayscale(100%);
+      width: 150px;
+      margin: 0 40px;
+}
+
+.third, .four-section{
+      padding-top: 100px;
+      padding-bottom: 100px;
+}
+
+.main-text-third{
+      font-weight: 700;
+      color: #131313;
+      font-size: 36px;
+      width: 600px;
+}
+
+.photo-card {
+      width: 100%; /* Sesuaikan dengan lebar dari kontainer induk */
+      height: 450px; /* Sesuaikan dengan tinggi dari kontainer induk */
+      position: relative; /* Untuk positioning relatif */
+      overflow: hidden; /* Agar gambar yang keluar dari area tidak terlihat */
+      border-radius: 20px;
+      i{
+            font-size: 30px;
+            font-weight: 800;
+      }
+}
+
+.photo-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Membuat gambar menutupi seluruh kontainer tanpa mengubah rasio aspek */
+      position: absolute; /* Agar gambar mengikuti posisi dari .photo-card */
+      top: 0; /* Posisi dari atas */
+      left: 0; /* Posisi dari kiri */
+}
+.btn-explore{
+      background-color: #a18cd1;
+}
+
+.four-section{
+      background-color: #161616;
+}
+
+.main-text-four-section{
+      width: 600px;
+      font-size: 36px;
+      font-weight: 700;
+}
+
+.second-text-four-section{
+      width: 500px;
+      color: rgb(210, 210, 210);
+      font-size: 14px;
+}
+
+.card-comment{
+      width: 300px;
+      border-radius: 20px;
+}
+
+.comment-content{
+      font-size: 15px;
+      font-weight: 500;
+}
+
+.name-people{
+      font-size: 14px;
+      font-weight: 600;
+}
+
+.source-comment{
+      font-size: 12px;
+      font-weight: 600;
+}
+
+.profile-people{
+      width: 40px;
+      height: 40px;
+      position: relative;
+      overflow: hidden;
+      border-radius: 50%;
+}
+
+.profile-people img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+}
+
+.fifth-section{
+      padding-top: 100px;
+      padding-bottom: 100px;
+}
+
+.main-text-fifth-section{
+      width: 600px;
+      color: #131313;
+      font-size: 36px;
+      font-weight: 700;
+}
+
+.second-text-fifth-section{
+      font-size: 14px;
+}
+
+.card-left-fifth-section{
+      height: 360px;
+      background-color: #a18cd1;
+      border-radius: 20px;
+}
+
+.card-right-fifth-section{
+      border-radius: 20px;
+      background-color: #67729D;
+}
+
+.main-text-left-card-fifth-section{
+      font-size: 26px;
+      color: white;
+}
+
+.second-text-left-card-fifth-section{
+      font-size: 14px;
+      color: rgb(243, 243, 243);
+      font-weight: 300;
+}
+
+.main-text-right-card-fifth-section{
+      font-size: 26px;
+      color: white;
+}
+
+.second-text-right-card-fifth-section{
+      font-size: 14px;
+      color: rgb(243, 243, 243);
+      font-weight: 300;
+}
+
+.apps-name{
+      font-size: 14px;
+}
+
+.apps-category{
+      font-size: 12px;
+}
+
+.card-app img{
+      height: 35px;
+}
+
+.main-text-last-section{
+      font-size: 36px;
+      font-weight: 700;
+      color: #131313;
+}
+.second-text-last-section{
+      font-size: 14px;
+      font-weight: 500;
+}
+
+.card-bottom{
+      background-color: #ececea;
+      border-radius: 20px;
+      margin-top: 100px;
+}
+
+.footer-section{
+      background-color: #161616;
+}
+
+.brand-footer{
+      font-size: 26px;
+}
+
+.tagline-footer{
+      font-size: 14px;
+}
+input::placeholder {
+      color: rgb(152, 152, 152)!important;
+      font-size: 14px;
+      opacity: 1; /* Ini mengatur transparansi teks placeholder */
+}
+
+input{
+      border-right: 0!important;
+      font-size: 12px!important;
+      background-color: #212121!important;
+      font-weight: 300;
+}
+
+.input-group{
+      background-color: #262626!important;
+}
